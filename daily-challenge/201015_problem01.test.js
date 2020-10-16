@@ -28,7 +28,7 @@ function solution1(skill, skill_trees) {
   const getOrderOfEachSkills = (order) => (value) => value
       .split('')
       .filter((alphabet) => Object.keys(order).includes(alphabet))
-      .map((alphabet) => obj[alphabet]);
+      .map((alphabet) => order[alphabet]);
 
   const skillOrder = Object.fromEntries(skill.split('').map((value,i) => [value, i]));
   

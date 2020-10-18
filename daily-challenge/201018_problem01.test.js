@@ -1,6 +1,6 @@
 /**
  * [링크]
- * https://programmers.co.kr/learn/courses/30/lessons/64061
+ * https://programmers.co.kr/learn/courses/30/lessons/62048
  * 
  * [느낀 점]
  * 최대공약수를 구하는 것까지는 스스로 생각했는데, 

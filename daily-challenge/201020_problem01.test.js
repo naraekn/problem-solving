@@ -29,7 +29,7 @@ function solution1(input) {
     }
   }
 
-  permutation(0, 0);
+  permutation(0);
 
   return result;
 }
@@ -44,9 +44,9 @@ function bj15649() {
 
 test('sample', () => {
   [solution1].forEach(solution => {
-      // expect(
-      //   solution("3 1"))
-      //   .toEqual("1\n2\n3\n"); 
+      expect(
+        solution("3 1"))
+        .toEqual("1\n2\n3\n"); 
 
       expect(
         solution("4 2"))

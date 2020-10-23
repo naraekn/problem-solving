@@ -15,8 +15,8 @@
  */
 
 function solution1(phone_number) {
-  console.log(phone_number.match(/.+(?=\d{4})/g));
-  console.log(phone_number.match(/[0-9](?=\d{4})/g));
+  // console.log(phone_number.match(/.+(?=\d{4})/g));
+  // console.log(phone_number.match(/[0-9](?=\d{4})/g));
   
   return phone_number.replace(/[0-9](?=\d{4})/g, "*");
 }

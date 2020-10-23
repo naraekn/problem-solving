@@ -30,12 +30,10 @@ function solution1(input) {
 
   dfs(0, 0);
 
-  console.log(result);
-
   return result;
 }
 
-function bj15656() {
+function bj15657() {
   const fs = require("fs");
   const input = fs.readFileSync("/dev/stdin").toString();
 
